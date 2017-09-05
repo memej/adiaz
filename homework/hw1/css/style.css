@@ -5,9 +5,8 @@ body {
 }
 
 #main{
-    font-size:40px;
-    font-weight: 700;
-    font-family: 'Libre Barcode 39 Text';
+    font-size:25px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 nav a{
