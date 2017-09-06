@@ -9,20 +9,27 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
+
+h1{
+    outline: groove;
+}
+
 nav a{
     color: white;
     text-decoration: none;
     font-size:25px;
-    padding: 30px;
+    padding: 20px;
     
 }
 
-#bar{
+.bar{
     background-color: green;
+    font-family: 'Aldrich', sans-serif;
 }
 
-#active{
-    color:orange;
+#icon{
+    font-size:48px;
+
 }
 
 a:hover{
@@ -33,11 +40,16 @@ header{
     background-color: green;
 }
 
-#headPic{
+#indexPic{
     background-color: black;
     border-radius: 50px;
      
 }
+
+ #active{
+     color:orange;
+ }
+
 
 h2{
     color:white;
@@ -50,11 +62,22 @@ h2{
 .VirusInfo{
     color:white;
     text-align: center;
-    font-size:20px;
+    font-size:25px;
     border:5px dashed;
     border-color: orange;
     margin: 38px;
     background-color: #696969;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+
+#btn:hover{
+    color:orange;
+}
+
+p{
+    margin: 10px;
 }
 
 footer{
@@ -64,7 +87,29 @@ footer{
     
 }
 
-li a{
-    color:white;
+
+#btn{
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
+#cPic{
+    border-radius: 60px;
+}
+
+.VirusText{
+    text-align: left;
+    font-family: 'Cairo', sans-serif;
+}
+
+#point{
+    color:orange;
+}
+
+#co{
+    outline:groove;
+    margin: 10px;
+    color: orange;
+}

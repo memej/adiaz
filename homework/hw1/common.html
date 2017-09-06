@@ -6,24 +6,64 @@
         <!-- https://www.livescience.com/6355-3-common-types-pc-virus-infections.html -->
         <!-- https://www.autodesk.com/redshift/10-tips-on-how-to-prevent-malware-from-infecting-your-computer/ -->
         <!-- http://www.pcworld.com/article/243818/security/how-to-remove-malware-from-your-windows-pc.html -->
-        <title>Viruses 101</title>
+        <title>Deadly Codes</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
         <link href = "css/style.css" rel = "stylesheet" type = "text/css"> 
        
        <header>
             <br /><br />
-            <div id = "bar">
+            <div class = "bar">
                 <nav>
-                    <a href = "index.html" id = "main">Virus, OH NO!</a>
+                    <a href = "index.html" id = "main">Virus, OH NO!<i class="fa fa-expeditedssl" id = "icon"></i></a>
                     <a href = "common.html" id = "active">Common Viruses</a>
                     <a href = "avoid.html">Avoid Viruses</a>
                     <a href = "after.html">Get Rid of a Virus</a>
                 </nav>
             </div>
+            <br />
        </header>
        
     </head>
     
     <body>
+        
+       <div class = "VirusInfo">
+           <h1 id = "co">Common Viruses That Affect Us</h1>
+           <figure>
+               <img src = "img/seeKey.jpg" id = "cPic">
+           </figure>
+           
+            <div class = "VirusText">
+            <h2>Three Popular Viruses</h2>
+            <ul>
+                <li id = "point"><strong>Trojans</strong></li>
+                <p>A <strong>Trojan</strong> is any program that pretends to be a different program than what it actually is. <strong>Trojans</strong> used to be related to sites that were in pornographic or file sharing, but in recent times anyone can get a <strong>trojan</strong>. These types of malware are silent and sometimes don't seem like they affect the device at all.</p>
+                
+                <li id = "point"><strong>Botnets</strong></li>
+                <p><strong>Botnets</strong> are viruses that help devices become open to fraud. They're used for Identity Theft, Extortion, Industrial Espionage, and finding other web pages to infect. They show no sign of symptoms on devices until it is too late.</p>
+                
+                <li id = "point"><strong>Scareware</strong></li> 
+                <p><strong>Scareware</strong> is a virus that gets the user when a warning pops up on the screen warning the user that the device is infected. The user will have the option to ignore the warning or fall into the lie. Either way the user will not win 
+                    because if the user ignores the warning it won't go away, and if the user buys into it the botnet infects the device.  </p>
+            </ul>
+               
+       </div>
+           
+           </div>
+          
+        
+    <footer>
+           <br />
+          
+           For More Information Feel Free to Check Out These Resources:
+          <br /> <br />
+               <input type="button" id = "btn" value="Common Viruses" onclick="window.open('https://www.livescience.com/6355-3-common-types-pc-virus-infections.html')" />
+           <br /><br />
+       </footer>
        
     </body>
+    
 </html>

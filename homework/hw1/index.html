@@ -7,16 +7,20 @@
         <!-- https://www.autodesk.com/redshift/10-tips-on-how-to-prevent-malware-from-infecting-your-computer/ -->
         <!-- http://www.pcworld.com/article/243818/security/how-to-remove-malware-from-your-windows-pc.html -->
         <title>Deadly Codes</title>
-       <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
         <link href = "css/style.css" rel = "stylesheet" type = "text/css"> 
        
     
 
         <header>
              <br /><br />
-            <div id = "bar">
+            <div class = "bar">
                 <nav>
-                   <a href = "index.html" id = "main">Virus, OH NO!</a>
+                   <a href = "index.html" id = "main">Virus, OH NO!<i class="fa fa-expeditedssl" id = "icon"></i></a>
+                  
                    <a href = "common.html">Common Viruses</a>
                    <a href = "avoid.html">Avoid Viruses</a>
                    <a href = "after.html">Get Rid of a Virus</a>
@@ -29,7 +33,8 @@
            
       
        <div class = "VirusInfo">
-           <figure id = "headPic">
+           <h1>Welcome to the World of Virus Knowledge</h1>
+           <figure id = "indexPic">
                <img src = "img/virus.jpg">
            </figure>
             <h2>Viruses Are No Joke</h2>
@@ -41,11 +46,12 @@
        
        <footer>
            <br />
+          
            For More Information Feel Free to Check Out These Resources:
           <br /> <br />
-               <li><a href = "https://cs.stanford.edu/people/eroberts/cs181/projects/viruses/viruses101.html" target="_blank">Viruses 101</a></li>
-              <li><a href = "https://us.norton.com/internetsecurity-malware-what-is-a-computer-virus.html" target = "_blank">What is a Computer Virus</a></li>
-           <br />
+              <input type="button" id = "btn" value="Viruses 101" onclick="window.open('https://cs.stanford.edu/people/eroberts/cs181/projects/viruses/viruses101.html')" />
+               <input type="button" id = "btn" value="What is a Computer Virus" onclick="window.open('https://us.norton.com/internetsecurity-malware-what-is-a-computer-virus.html')" />
+           <br /><br />
        </footer>
        
     </body>
