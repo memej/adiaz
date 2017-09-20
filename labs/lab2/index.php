@@ -13,9 +13,7 @@
     <body>
        <div id = "main">
         <?php play(); ?>
-       <form>
-           <input type = "submit" value = "Spin!">
-       </form>
+       
        </div>
         
       <!-- For class finish 1, 2, and 3 -->

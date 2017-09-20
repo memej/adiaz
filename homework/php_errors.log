@@ -1,0 +1,134 @@
+[17-Sep-2017 23:21:46 UTC] PHP Fatal error:  Call to undefined function displayDice() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15
+[17-Sep-2017 23:21:46 UTC] PHP Stack trace:
+[17-Sep-2017 23:21:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:21:47 UTC] PHP Fatal error:  Call to undefined function displayDice() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15
+[17-Sep-2017 23:21:47 UTC] PHP Stack trace:
+[17-Sep-2017 23:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:21:48 UTC] PHP Fatal error:  Call to undefined function displayDice() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15
+[17-Sep-2017 23:21:48 UTC] PHP Stack trace:
+[17-Sep-2017 23:21:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:25:10 UTC] PHP Warning:  Missing argument 1 for displayDice(), called in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15 and defined in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 9
+[17-Sep-2017 23:25:10 UTC] PHP Stack trace:
+[17-Sep-2017 23:25:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:25:10 UTC] PHP   2. displayDice() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:15
+[17-Sep-2017 23:25:11 UTC] PHP Warning:  Missing argument 1 for displayDice(), called in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15 and defined in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 9
+[17-Sep-2017 23:25:11 UTC] PHP Stack trace:
+[17-Sep-2017 23:25:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:25:11 UTC] PHP   2. displayDice() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:15
+[17-Sep-2017 23:25:12 UTC] PHP Warning:  Missing argument 1 for displayDice(), called in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15 and defined in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 9
+[17-Sep-2017 23:25:12 UTC] PHP Stack trace:
+[17-Sep-2017 23:25:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:25:12 UTC] PHP   2. displayDice() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:15
+[17-Sep-2017 23:25:13 UTC] PHP Warning:  Missing argument 1 for displayDice(), called in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15 and defined in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 9
+[17-Sep-2017 23:25:13 UTC] PHP Stack trace:
+[17-Sep-2017 23:25:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:25:13 UTC] PHP   2. displayDice() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:15
+[17-Sep-2017 23:25:13 UTC] PHP Warning:  Missing argument 1 for displayDice(), called in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15 and defined in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 9
+[17-Sep-2017 23:25:13 UTC] PHP Stack trace:
+[17-Sep-2017 23:25:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:25:13 UTC] PHP   2. displayDice() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:15
+[17-Sep-2017 23:26:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 10
+[17-Sep-2017 23:26:31 UTC] PHP Stack trace:
+[17-Sep-2017 23:26:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:26:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 10
+[17-Sep-2017 23:26:32 UTC] PHP Stack trace:
+[17-Sep-2017 23:26:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:38:16 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15
+[17-Sep-2017 23:38:16 UTC] PHP Stack trace:
+[17-Sep-2017 23:38:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:38:17 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15
+[17-Sep-2017 23:38:17 UTC] PHP Stack trace:
+[17-Sep-2017 23:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:38:31 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15
+[17-Sep-2017 23:38:31 UTC] PHP Stack trace:
+[17-Sep-2017 23:38:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:38:32 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 15
+[17-Sep-2017 23:38:32 UTC] PHP Stack trace:
+[17-Sep-2017 23:38:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:56:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 14
+[17-Sep-2017 23:56:29 UTC] PHP Stack trace:
+[17-Sep-2017 23:56:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:58:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 19
+[17-Sep-2017 23:58:18 UTC] PHP Stack trace:
+[17-Sep-2017 23:58:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:58:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 19
+[17-Sep-2017 23:58:20 UTC] PHP Stack trace:
+[17-Sep-2017 23:58:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:58:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 19
+[17-Sep-2017 23:58:21 UTC] PHP Stack trace:
+[17-Sep-2017 23:58:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:58:39 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 12
+[17-Sep-2017 23:58:39 UTC] PHP Stack trace:
+[17-Sep-2017 23:58:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[17-Sep-2017 23:58:41 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 12
+[17-Sep-2017 23:58:41 UTC] PHP Stack trace:
+[17-Sep-2017 23:58:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 00:54:18 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/homework/hw2/index.php on line 13
+[18-Sep-2017 00:54:18 UTC] PHP Stack trace:
+[18-Sep-2017 00:54:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:16:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 16
+[18-Sep-2017 01:16:21 UTC] PHP Stack trace:
+[18-Sep-2017 01:16:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:16:22 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 16
+[18-Sep-2017 01:16:22 UTC] PHP Stack trace:
+[18-Sep-2017 01:16:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:16:36 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 16
+[18-Sep-2017 01:16:36 UTC] PHP Stack trace:
+[18-Sep-2017 01:16:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:16:37 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 16
+[18-Sep-2017 01:16:37 UTC] PHP Stack trace:
+[18-Sep-2017 01:16:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:17:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 17
+[18-Sep-2017 01:17:10 UTC] PHP Stack trace:
+[18-Sep-2017 01:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:17:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 17
+[18-Sep-2017 01:17:11 UTC] PHP Stack trace:
+[18-Sep-2017 01:17:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:17:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 17
+[18-Sep-2017 01:17:12 UTC] PHP Stack trace:
+[18-Sep-2017 01:17:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:23:22 UTC] PHP Fatal error:  Call to undefined function displayDice() in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 18
+[18-Sep-2017 01:23:22 UTC] PHP Stack trace:
+[18-Sep-2017 01:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:23:22 UTC] PHP   2. include() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:6
+[18-Sep-2017 01:23:24 UTC] PHP Fatal error:  Call to undefined function displayDice() in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 18
+[18-Sep-2017 01:23:24 UTC] PHP Stack trace:
+[18-Sep-2017 01:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:23:24 UTC] PHP   2. include() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:6
+[18-Sep-2017 01:50:12 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 21
+[18-Sep-2017 01:50:12 UTC] PHP Stack trace:
+[18-Sep-2017 01:50:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:50:13 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 21
+[18-Sep-2017 01:50:13 UTC] PHP Stack trace:
+[18-Sep-2017 01:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:50:14 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 21
+[18-Sep-2017 01:50:14 UTC] PHP Stack trace:
+[18-Sep-2017 01:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:50:15 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 21
+[18-Sep-2017 01:50:15 UTC] PHP Stack trace:
+[18-Sep-2017 01:50:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:50:16 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 21
+[18-Sep-2017 01:50:16 UTC] PHP Stack trace:
+[18-Sep-2017 01:50:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:50:17 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 21
+[18-Sep-2017 01:50:17 UTC] PHP Stack trace:
+[18-Sep-2017 01:50:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[18-Sep-2017 01:50:17 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 21
+[18-Sep-2017 01:50:17 UTC] PHP Stack trace:
+[18-Sep-2017 01:50:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[19-Sep-2017 17:07:27 UTC] PHP Parse error:  syntax error, unexpected '$randomValue2' (T_VARIABLE) in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 32
+[19-Sep-2017 17:07:27 UTC] PHP Stack trace:
+[19-Sep-2017 17:07:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[19-Sep-2017 17:07:28 UTC] PHP Parse error:  syntax error, unexpected '$randomValue2' (T_VARIABLE) in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 32
+[19-Sep-2017 17:07:28 UTC] PHP Stack trace:
+[19-Sep-2017 17:07:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[20-Sep-2017 03:15:23 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 18
+[20-Sep-2017 03:15:23 UTC] PHP Stack trace:
+[20-Sep-2017 03:15:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[20-Sep-2017 03:35:26 UTC] PHP Fatal error:  Call to undefined function displayWinner() in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 49
+[20-Sep-2017 03:35:26 UTC] PHP Stack trace:
+[20-Sep-2017 03:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
+[20-Sep-2017 03:35:26 UTC] PHP   2. play() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:23
+[20-Sep-2017 03:48:14 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /home/ubuntu/workspace/adiaz/homework/hw2/inc/functions.php on line 7
+[20-Sep-2017 03:48:14 UTC] PHP Stack trace:
+[20-Sep-2017 03:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/homework/hw2/index.php:0
