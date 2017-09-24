@@ -2,10 +2,9 @@ body {
     margin: 0;
     padding: 0;
     display: block;
+    background-color: orange;
 }
-p {
-    
-}
+
 .container {
     width: 50%;
     max-width: 1000%;
@@ -47,3 +46,4 @@ header {
 .end-field {
     text-align: center;
 }
+
