@@ -104,9 +104,6 @@ foreach ($deck as $card) { // for loop
     echo "<h2> Points: " . $totalPoints . "</h2>";
     
     }
-    echo "<br />";
-    $elapsedSecs = microtime(true) - $start;
-    echo $elapsedSecs . " secs";
     
     //echo "</div>";
     

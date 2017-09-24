@@ -32,10 +32,14 @@ if (!isset($_SESSION['matchCount'])) { //checks whether the session exists
            <?php
            
            play();
-           
+            echo "<form>";
+            echo "    <input type = 'submit' value = 'Play Again!' id = 'button'>";
+           echo " </form> ";
            elapsedTime();
            
            ?>
+           
+          
            
         </div>
     </body>
