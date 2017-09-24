@@ -1,27 +1,4 @@
-[06-Sep-2017 20:17:55 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 11
-[06-Sep-2017 20:19:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 12
-[06-Sep-2017 20:19:28 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 12
-[08-Sep-2017 02:13:38 UTC] PHP Parse error:  syntax error, unexpected 'ucfirst' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 02:14:01 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 02:14:02 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 02:14:03 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 02:14:04 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 02:14:05 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 02:14:05 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 02:14:06 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 02:14:06 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 23
-[08-Sep-2017 19:14:10 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 12
-[08-Sep-2017 19:14:10 UTC] PHP Stack trace:
-[08-Sep-2017 19:14:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab2/index.php:0
-[08-Sep-2017 19:14:10 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 12
-[08-Sep-2017 19:14:10 UTC] PHP Stack trace:
-[08-Sep-2017 19:14:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab2/index.php:0
-[08-Sep-2017 19:14:11 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 12
-[08-Sep-2017 19:14:11 UTC] PHP Stack trace:
-[08-Sep-2017 19:14:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab2/index.php:0
-[08-Sep-2017 19:14:11 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 12
-[08-Sep-2017 19:14:11 UTC] PHP Stack trace:
-[08-Sep-2017 19:14:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab2/index.php:0
-[08-Sep-2017 19:14:12 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/adiaz/labs/lab2/index.php on line 12
-[08-Sep-2017 19:14:12 UTC] PHP Stack trace:
-[08-Sep-2017 19:14:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab2/index.php:0
+[22-Sep-2017 20:03:15 UTC] PHP Parse error:  syntax error, unexpected '"<br />"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/adiaz/labs/lab4/index.php on line 7
+[22-Sep-2017 20:20:26 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/adiaz/labs/lab4/index.php on line 18
+[22-Sep-2017 20:20:26 UTC] PHP Stack trace:
+[22-Sep-2017 20:20:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab4/index.php:0
