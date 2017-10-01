@@ -2,7 +2,7 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
+        color:black;
     }
     
     input {
@@ -13,4 +13,20 @@
     #carousel-example-generic {
          margin: 0 auto;   
          width: 700px;
+    }
+    
+    #tex{
+        border-radius: 25px;
+    }
+    
+    #horiRadio, #vertiRadio{
+        background-color: white;
+    }
+    
+    #submit{
+        border-radius: 25px;
+    }
+    
+    img{
+        border-radius: 20px;
     }

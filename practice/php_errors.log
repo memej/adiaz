@@ -1,0 +1,87 @@
+[27-Sep-2017 19:58:43 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 17
+[27-Sep-2017 20:05:21 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:21 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:21 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:51 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:51 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:51 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:53 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:53 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:53 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:54 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:54 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:54 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:54 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:54 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:54 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:54 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:54 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:54 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:55 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:55 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:55 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:55 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:55 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:55 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:55 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:55 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:55 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:55 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:55 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:55 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:55 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:55 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:55 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:56 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:56 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:56 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:56 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:56 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:56 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:56 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:56 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:56 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:56 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:56 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:56 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:57 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:57 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:57 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:57 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:57 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:57 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:57 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:57 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:57 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:57 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:57 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:57 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:57 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:57 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:57 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:05:58 UTC] PHP Warning:  Missing argument 3 for printYear(), called in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 3
+[27-Sep-2017 20:05:58 UTC] PHP Stack trace:
+[27-Sep-2017 20:05:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:0
+[27-Sep-2017 20:05:58 UTC] PHP   2. printYear() /home/ubuntu/workspace/adiaz/practice/zodiac/index.php:35
+[27-Sep-2017 20:07:27 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 2
+[27-Sep-2017 20:11:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/adiaz/practice/zodiac/index.php on line 20
