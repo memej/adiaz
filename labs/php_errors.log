@@ -33,3 +33,7 @@
 [29-Sep-2017 20:29:49 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/adiaz/labs/lab4/index.php on line 101
 [29-Sep-2017 20:29:49 UTC] PHP Stack trace:
 [29-Sep-2017 20:29:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab4/index.php:0
+[01-Oct-2017 18:05:12 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/adiaz/labs/lab4/index.php on line 120
+[01-Oct-2017 18:05:12 UTC] PHP Stack trace:
+[01-Oct-2017 18:05:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab4/index.php:0
+[01-Oct-2017 18:05:12 UTC] PHP   2. rand() /home/ubuntu/workspace/adiaz/labs/lab4/index.php:120
