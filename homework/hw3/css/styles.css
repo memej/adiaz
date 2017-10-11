@@ -1,3 +1,37 @@
 #Intro{
     text-align: center;
+    font-family: 'Rye', cursive;
+    background-color: #B75422 ;
+    color: white;
 }
+
+#result{
+    background-color: #D97644 ;
+    text-align: center;
+    color: white;
+    font-family: 'Rye', cursive;
+    text-decoration: underline ;
+
+    
+}
+
+#quiz{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+}
+
+h3{
+    font-family: 'Modak', cursive;
+
+}
+
+body{
+    background-color: #F99C6D;
+}
+
+#submit{
+    background-color: #D3D3D3;
+    width: 400px;
+}
+
