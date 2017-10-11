@@ -48,3 +48,8 @@ footer{
     font-size: 3em;
     transition: 0.7s;
 }
+
+a, p{
+    color: white;
+    font-size: 20px;
+}

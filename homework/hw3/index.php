@@ -509,5 +509,8 @@ function questionTen($Q10, $points){
     
     <footer>
         <img src = "img/buddy_verified.png">
+        <p>Also want to take a quiz to see what type of pasta you are?!?! </p>
+        <a href = "http://ering-walters-cst336.herokuapp.com/cst336/homework/homework3/"><p>Take this quiz!</p></a>
+        <br />
     </footer>
 </html>
