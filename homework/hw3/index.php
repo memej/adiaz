@@ -24,7 +24,7 @@ function countPoints($Q1, $Q2, $Q3, $Q4, $Q5, $PQ1, $PQ2, $PQ3, $PQ4, $PQ5, $PQ6
    
     else if (empty($Q1) || empty($Q2) || empty($Q3) || empty($Q4) || empty($Q5) || empty($Q7) || empty($Q8) || empty($Q9) || empty($Q10)) {
             
-        echo "<h2 style='color:red'> Error! You must complete the whole quiz! </h2>";
+        echo "<h2 style='color:red' id = 'error'> *Error! You must complete the whole quiz! </h2>";
         return;
         exit;
         }
@@ -506,4 +506,8 @@ function questionTen($Q10, $points){
       </form>
       
     </body>
+    
+    <footer>
+        <img src = "img/buddy_verified.png">
+    </footer>
 </html>
