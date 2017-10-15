@@ -100,7 +100,7 @@ function displayDevices(){
             </select>
             
             <input type="checkbox" name="available" id="available">
-            <label for="available"> Available </label>
+            <label for="available"> Available? </label>
             
             <br>
             Order by:
