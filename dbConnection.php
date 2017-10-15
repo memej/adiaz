@@ -3,7 +3,7 @@
 
 function getDatabaseConnection(){
     
-    $host = 'localhost';//cloud 9
+    $host = getenv(CLEARDB_DATABASE_URL);//cloud 9
     $dbname = 'tcp';
     $username = 'root';
     $password = '';
