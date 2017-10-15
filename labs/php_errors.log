@@ -55,3 +55,12 @@ Stack trace:
 [13-Oct-2017 20:25:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:0
 [13-Oct-2017 20:25:08 UTC] PHP   2. displayDevices() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:120
 [13-Oct-2017 20:28:18 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/adiaz/labs/lab5/checkoutHistory.php on line 23
+[15-Oct-2017 19:32:59 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 3
+[15-Oct-2017 19:32:59 UTC] PHP Stack trace:
+[15-Oct-2017 19:32:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:0
+[15-Oct-2017 19:32:59 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 3
+[15-Oct-2017 19:32:59 UTC] PHP Stack trace:
+[15-Oct-2017 19:32:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:0
+[15-Oct-2017 19:32:59 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 5
+[15-Oct-2017 19:32:59 UTC] PHP Stack trace:
+[15-Oct-2017 19:32:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:0
