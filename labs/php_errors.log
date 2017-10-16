@@ -181,3 +181,33 @@ Stack trace:
 #1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(5): getDatabaseConnection()
 #2 {main}
   thrown in /home/ubuntu/workspace/adiaz/dbConnection.php on line 21
+[16-Oct-2017 02:39:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/adiaz/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(99): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 14
+[16-Oct-2017 02:39:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/adiaz/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(99): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 14
+[16-Oct-2017 02:39:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/adiaz/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(99): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 14
+[16-Oct-2017 02:40:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/adiaz/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(99): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 14
+[16-Oct-2017 02:40:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/adiaz/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(99): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 14
