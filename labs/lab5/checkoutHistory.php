@@ -20,8 +20,8 @@ function displayCheckoutHistory() {
     
     foreach ($records as $record) {
         
-        echo  $record['firstName'] . " " . $record['lastName'];
-        echo "<br />";
+        echo  $record['firstName'] . " " . $record['lastName'] . "<br />";
+        
     }
     
 }

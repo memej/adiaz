@@ -75,7 +75,7 @@ function displayDevices(){
         
         echo  $record['deviceName'] . " " . $record['deviceType'] . " " .
               $record['price'] .  "  " . $record['status'] . 
-              "<a target= 'checkoutHistory' href='checkoutHistory.php?deviceId=".$record['deviceId']."'> Checkout History </a> <br />";
+              "<a target='checkoutHistory' href='checkoutHistory.php?deviceId=".$record['deviceId']."'> Checkout History </a> <br />";
         
     }
 }
@@ -100,7 +100,7 @@ function displayDevices(){
             </select>
             
             <input type="checkbox" name="available" id="available">
-            <label for="available"> Available? </label>
+            <label for="available"> Available </label>
             
             <br>
             Order by:
@@ -118,7 +118,13 @@ function displayDevices(){
         <hr>
         
         <?=displayDevices()?>
+        
+        
+        
         <iframe name="checkoutHistory" width="400" height="400"></iframe>
+        
+
+
 
     </body>
 </html>
