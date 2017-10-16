@@ -229,3 +229,36 @@ Stack trace:
 #1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(5): getDatabaseConnection()
 #2 {main}
   thrown in /home/ubuntu/workspace/adiaz/dbConnection.php on line 21
+[16-Oct-2017 03:23:42 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/adiaz/dbConnection.php on line 22
+[16-Oct-2017 03:23:42 UTC] PHP Stack trace:
+[16-Oct-2017 03:23:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:0
+[16-Oct-2017 03:23:42 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:5
+[16-Oct-2017 03:23:42 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/adiaz/dbConnection.php:22
+[16-Oct-2017 03:23:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/adiaz/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/dbConnection.php(22): PDO->__construct('mysql:host=lst;...', 'root', '')
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/dbConnection.php on line 22
+[16-Oct-2017 03:24:02 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/adiaz/dbConnection.php on line 22
+[16-Oct-2017 03:24:02 UTC] PHP Stack trace:
+[16-Oct-2017 03:24:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:0
+[16-Oct-2017 03:24:02 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:5
+[16-Oct-2017 03:24:02 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/adiaz/dbConnection.php:22
+[16-Oct-2017 03:24:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/adiaz/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/dbConnection.php on line 22
+[16-Oct-2017 03:24:02 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/adiaz/dbConnection.php on line 22
+[16-Oct-2017 03:24:02 UTC] PHP Stack trace:
+[16-Oct-2017 03:24:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:0
+[16-Oct-2017 03:24:02 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/adiaz/labs/lab5/index.php:5
+[16-Oct-2017 03:24:02 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/adiaz/dbConnection.php:22
+[16-Oct-2017 03:24:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/adiaz/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/dbConnection.php on line 22
