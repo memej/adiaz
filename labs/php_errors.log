@@ -211,3 +211,21 @@ Stack trace:
 #1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(99): getDeviceTypes()
 #2 {main}
   thrown in /home/ubuntu/workspace/adiaz/labs/lab5/index.php on line 14
+[16-Oct-2017 02:58:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_e6bf88f127f62dd&server=2'' in /home/ubuntu/workspace/adiaz/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/dbConnection.php(21): PDO->__construct('mysql:host=;dbn...', 'root', '')
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/dbConnection.php on line 21
+[16-Oct-2017 02:58:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_e6bf88f127f62dd&server=2'' in /home/ubuntu/workspace/adiaz/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/dbConnection.php(21): PDO->__construct('mysql:host=;dbn...', 'root', '')
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/dbConnection.php on line 21
+[16-Oct-2017 02:58:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_e6bf88f127f62dd&server=2'' in /home/ubuntu/workspace/adiaz/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/dbConnection.php(21): PDO->__construct('mysql:host=;dbn...', 'root', '')
+#1 /home/ubuntu/workspace/adiaz/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/dbConnection.php on line 21
