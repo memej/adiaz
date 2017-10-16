@@ -25,7 +25,7 @@ function getDeviceTypes() {
 function displayDevices(){
     global $conn;
     
-    $sql = "SELECT * FROM tc_device WHERE 1 ";
+    $sql = "SELECT * FROM `tc_device` WHERE 1 ";
     
     
     if (isset($_GET['submit'])){
@@ -34,11 +34,8 @@ function displayDevices(){
         
         
         if (!empty($_GET['deviceName'])) {
-            
-            //The following query allows SQL injection due to the single quotes
-            //$sql .= " AND deviceName LIKE '%" . $_GET['deviceName'] . "%'";
-  
-            $sql .= " AND deviceName LIKE :deviceName"; //using named parameters
+           
+             $sql .= " AND deviceName LIKE :deviceName"; //using named parameters
             $namedParameters[':deviceName'] = "%" . $_GET['deviceName'] . "%";
 
          }
@@ -47,35 +44,50 @@ function displayDevices(){
             
             //The following query allows SQL injection due to the single quotes
             //$sql .= " AND deviceName LIKE '%" . $_GET['deviceName'] . "%'";
-  
-            $sql .= " AND deviceType = :dType"; //using named parameters
-            $namedParameters[':dType'] =   $_GET['deviceType'] ;
+            
+            $sql .= " AND deviceType = :deviceType"; //using named parameters
+            $namedParameters[':deviceType'] =   $_GET['deviceType'] ;
+            }
+            
 
-         }     
+              
          
-         if (isset($_GET['available'])) {
-             
-         }
-        
-        
-        
-    }//endIf (isset)
+        if(isset($_GET['available'])) {
+            $sql .= " AND status = 'A'";
+       
+        }
     
-    //If user types a deviceName
-     //   "AND deviceName LIKE '%$_GET['deviceName']%'";
-    //if user selects device type
-      //  "AND deviceType = '$_GET['deviceType']";
+        if($_GET['orderBy'] == 'name') {
+            $sql .= " ORDER BY deviceName";
+        
+            
+        }
     
+        if($_GET['orderBy'] == 'price') {
+            $sql .= " ORDER BY price";
+        
+    }
+    
+    if(!isset($_GET['orderBy'])) {
+        $sql .= " ORDER BY deviceName";
+         
+    
+    }
+        
+        
+        
+    }
     
     $stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    
+    echo "<h2> Device Name | Device Type | Price | Status | Checkout History </h2>";
+    echo "<br />";
      foreach ($records as $record) {
         
-        echo  $record['deviceName'] . " " . $record['deviceType'] . " " .
-              $record['price'] .  "  " . $record['status'] . 
-              "<a target='checkoutHistory' href='checkoutHistory.php?deviceId=".$record['deviceId']."'> Checkout History </a> <br />";
+        echo "<h3> ". $record['deviceName'] . "  |  " . $record['deviceType'] . "  |  $" .
+              $record['price'] .  "  |  " . $record['status'] . 
+              " | <a target= 'checkoutHistory' href='checkoutHistory.php?deviceId=".$record['deviceId']."'> Checkout History </a> <br /> </h3>";
         
     }
 }
@@ -86,6 +98,10 @@ function displayDevices(){
 <html>
     <head>
         <title>Lab 5: Device Search </title>
+        
+        <style>
+            @import url('css/styles.css');
+        </style>
     </head>
     <body>
         
@@ -95,12 +111,12 @@ function displayDevices(){
             Device: <input type="text" name="deviceName" placeholder="Device Name"/>
             Type: 
             <select name="deviceType">
-                <option>Select One</option>
-                <?=getDeviceTypes()?>
-            </select>
+                        <option value=""> Select One</option>
+                        <?=getDeviceTypes()?>
+                    </select>
             
             <input type="checkbox" name="available" id="available">
-            <label for="available"> Available </label>
+            <label for="available"> Available? </label>
             
             <br>
             Order by:
@@ -118,13 +134,7 @@ function displayDevices(){
         <hr>
         
         <?=displayDevices()?>
-        
-        
-        
         <iframe name="checkoutHistory" width="400" height="400"></iframe>
-        
-
-
 
     </body>
 </html>
