@@ -11,10 +11,17 @@ var selectedWord = "";
 var selectedHint = "";
 var board = "";
 var remainingGuesses = 6;
-
+var hinter = false;
 
 window.onload = startGame();
 
+$("#hint").on('click', function(){
+    if(hinter == false){
+    $("#word").append("<br />");
+    $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>")
+    hinter = true;
+    }
+});
 
 
 $(".replayBtn").on('click', function() {
@@ -25,6 +32,7 @@ $(".replayBtn").on('click', function() {
 $("#letters").on("click", ".letter", function(){
     checkLetter($(this).attr("id"));
     disableButton($(this));
+    hinter = false;
 });
 
 
@@ -59,10 +67,9 @@ function updateBoard() {
         $("#word").append(letter);
         $("#word").append(' ');
     }
-    
-    $("#word").append("<br />");
-    $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>")
 }
+
+
 
 
 function updateWord(positions, letter) {
