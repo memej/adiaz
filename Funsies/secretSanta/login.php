@@ -29,6 +29,7 @@ function getInfo(){
     else {
         
         if($record['username'] == "admin") {
+             $_SESSION['username'] = $record['username'];
             header("Location: admin.php");
         }
         else {
