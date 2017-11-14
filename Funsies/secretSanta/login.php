@@ -2,7 +2,7 @@
 session_start();
 
 function getInfo(){
-    include '../dbConnection.php';
+    include '../../dbConnection.php';
     $conn = getDatabaseConnection();
     
     $username = $_POST['username'];
