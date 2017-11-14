@@ -2,6 +2,11 @@
 include '../../dbConnection.php';
 $conn = getDatabaseConnection();
 
+if (!isset($_SESSION['username'])) { // checks whether admin has logged in
+    header("Location: index.php");
+    exit();
+}
+
 function shufflePeople() {
     global $conn;
     
