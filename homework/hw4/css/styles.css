@@ -11,6 +11,14 @@ img{
     width: 680px;
 }
 
+#bottom{
+    text-align: center;
+}
+
+#buddy{
+    width: 100px;
+}
+
 .p1{
     float: left;
     margin-right: 10px;
