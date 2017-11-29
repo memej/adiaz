@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Walmart Search</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <style>
+            h1,h3{
+                color:#367588;
+                font-family: 'Anton', sans-serif;
+            }
+            
+            .top{
+                background-color:white;
+                color:#367588;
+            }
+            
+            body{
+                background-color:#367588;
+                
+            }
+            
+            #results, #history{
+                color:white;
+            }
+            
+        </style>
+    
+         <script>
+        
+            function updateHistory(){
+            var value= $("#search").val();
+            $.ajax({
+            type: "GET",
+            url: "updateSearchHistory.php",
+            dataType: "",
+            data: {passValue: value},
+            success: function() {
+                console.log("okay");
+                
+            }
+        }); 
+            }
+            
+            
+            function getCount(){
+            var value= $("#search").val();
+            $.ajax({
+            type: "GET",
+            url: "getCount.php",
+            dataType: "html",
+            data: {passValue: value},
+            success: function(response) {
+            $("#history").append("The keyword '"+value+"' has been searched "+response+" time(s)"+"<br>");
+            }
+        }); 
+                
+            }
+        
+            function getHistory() {
+                $("#history").empty();
+          var value = $("#search").val();
+                $.ajax({
+            type: "GET",
+            url: "getSearchHistory.php",
+            dataType: "text",
+            data: {passValue: value},
+            success: function(response) {
+     
+                    $("#history").append(response);
+               
+                
+            }
+        });
+        
+    }
+        
+            function getSearch() {
+                $.ajax({
+                    type: "GET",
+                    url: "http://api.walmartlabs.com/v1/search",
+                    dataType: "json",
+                    data: { "apiKey" : "2qbg85ptzf3ju3fqe9ynv5ty",
+                            "query" : $("#search").val(),
+                            "format" : "json",
+                            "facet.on" : "on",
+                    }, 
+                    success: function(data,status) {
+                        var counter = 0;
+                        if(data.message == "Results not found!" ) {
+                            $("#results").append("Search Not Found. Try Again!");
+                            $("#results").append(" <br> ");
+
+                        }
+                        else {
+                         $('#results').empty();
+                        for(var i = 0; i < data["items"].length; i++){
+                           
+                           if($("#available").val() == "1"){
+                             if(data["items"][i].offerType == "ONLINE_ONLY"){
+                                 counter++;
+                                  $("#results").append("<img src= '" + data['items'][i].thumbnailImage + "'>");
+                                  $("#results").append(" --- ");
+                           $("#results").append(data["items"][i].name);
+                            $("#results").append(" ---  ");
+                           $("#results").append("$" + data["items"][i].salePrice);
+                           $("#results").append(" ---  ");
+                                $("#results").append("ONLINE ONLY");
+                                $("#results").append("<hr>");
+                           }  
+                           else{
+                               continue;
+                           }
+                           }
+                           
+                           else if($("#available").val() == "3"){
+                             if(data["items"][i].offerType == "ONLINE_AND_STORE"){
+                                 counter++;
+                                  $("#results").append("<img src= '" + data['items'][i].thumbnailImage + "'>");
+                                  $("#results").append(" --- ");
+                           $("#results").append(data["items"][i].name);
+                            $("#results").append(" ---  ");
+                           $("#results").append("$" + data["items"][i].salePrice);
+                           $("#results").append(" ---  ");
+                                $("#results").append("ONLINE AND IN STORE");
+                                $("#results").append("<hr>");
+                           }
+                           else{
+                               continue;
+                           }
+                           }
+                           
+                           else if($("#available").val() == "2"){
+                              if(!data["items"][i].offerType){
+                                  counter++;
+                                   $("#results").append("<img src= '" + data['items'][i].thumbnailImage + "'>");
+                                   $("#results").append(" --- ");
+                           $("#results").append(data["items"][i].name);
+                            $("#results").append(" ---  ");
+                           $("#results").append("$" + data["items"][i].salePrice);
+                           $("#results").append(" ---  ");
+                                $("#results").append("IN STORE ONLY");
+                                $("#results").append("<hr>");
+                           }
+                           else{
+                               continue;
+                           }
+                           }
+                          else{
+                              counter++;
+                               $("#results").append("<img src= '" + data['items'][i].thumbnailImage + "'>");
+                               $("#results").append(" --- ");
+                           $("#results").append(data["items"][i].name);
+                            $("#results").append(" ---  ");
+                           $("#results").append("$" + data["items"][i].salePrice);
+                           $("#results").append(" ---  ");
+                           $("#results").append(data["items"][i].offerType);
+                           $("#results").append("<hr>");
+                          }
+                            $("#results").append("<br>");
+                        }
+                        if(counter == 0){
+                             $("#results").append("Search Not Found. Try Again!");
+                        }
+                        }
+                    },
+                        
+                    
+                });
+            }
+            
+            $(document).ready( function() {
+                $("#submit").click(function () {
+                    updateHistory();
+                    getCount();
+                    getHistory();
+                    getSearch();
+                   
+                });
+            });
+            
+            </script>
+    </head>
+    <body>
+    
+    <div class = "top">
+        <h1 style = "text-align: center">Walmart?</h1>
+         <h3 style = "text-align: center">This is a website designed to help users see if the item they are looking for is In-Store, Online, or Both </h3>
+    <form style = "text-align: center" onsubmit = "return false">
+        Search: <input type = "text" id = "search"><br>
+        Availability: 
+        <select id = "available">
+            <option value = "">Select One</option>
+            <option value = "1">Online Only</option>
+            <option value = "2">In Store Only</option>
+            <option value = "3">Online and In Store</option>
+        </select>
+        <input type = "submit" value = "Submit" id = "submit">
+        <br>
+       
+    </form>
+    </div>
+    <div id = "answer" style = "text-align: center">
+        <br>
+     <span id = "history"></span>
+        <hr>
+        <span id = "results"></span>
+        <br>
+     <img src = "img/buddy_verified.png" style = "width:100px"  >
+     </div>
+    </body>
+    
+</html>
