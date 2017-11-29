@@ -14,5 +14,5 @@ $value=$_GET['passValue'];
      
   }
   
-  echo $count;
+  echo $count + 1;
 ?>
