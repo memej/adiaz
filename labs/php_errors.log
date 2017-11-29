@@ -641,3 +641,39 @@ Stack trace:
 #0 /home/ubuntu/workspace/adiaz/labs/lab8/checkUsername.php(18): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/adiaz/labs/lab8/checkUsername.php on line 18
+[29-Nov-2017 21:37:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php(55): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php on line 14
+[29-Nov-2017 21:38:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php(55): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php on line 14
+[29-Nov-2017 21:38:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php(55): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php on line 14
+[29-Nov-2017 21:38:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php(55): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php on line 14
+[29-Nov-2017 21:44:42 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php on line 5
+[29-Nov-2017 21:44:42 UTC] PHP Stack trace:
+[29-Nov-2017 21:44:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:0
+[29-Nov-2017 21:44:42 UTC] PHP   2. getPetList() /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:56
+[29-Nov-2017 21:44:42 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php on line 5
+[29-Nov-2017 21:44:42 UTC] PHP Stack trace:
+[29-Nov-2017 21:44:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:0
+[29-Nov-2017 21:44:42 UTC] PHP   2. getPetList() /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:56
+[29-Nov-2017 21:44:42 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php on line 6
+[29-Nov-2017 21:44:42 UTC] PHP Stack trace:
+[29-Nov-2017 21:44:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:0
+[29-Nov-2017 21:44:42 UTC] PHP   2. getPetList() /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:56

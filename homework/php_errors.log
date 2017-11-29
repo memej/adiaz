@@ -1508,3 +1508,33 @@ Stack trace:
 #0 /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php(14): PDOStatement->fetch(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php on line 14
+[29-Nov-2017 21:10:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php(14): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php on line 14
+[29-Nov-2017 21:54:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php(14): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php on line 14
+[29-Nov-2017 21:55:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php(14): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php on line 14
+[29-Nov-2017 21:56:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php(14): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php on line 14
+[29-Nov-2017 21:56:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php(14): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php on line 14
+[29-Nov-2017 21:58:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php(14): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/adiaz/homework/hw5/updateSearchHistory.php on line 14
