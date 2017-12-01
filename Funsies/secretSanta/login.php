@@ -132,6 +132,11 @@ function isPressed() {
         </div>
         
         <br><br>
-        <center>Designed by: Arthur Diaz and Kirk Worley</center>
+        <center>
+            Designed by: Arthur Diaz and Kirk Worley
+            <br>
+            <h3>Max Spending Value: $20-25</h3>
+            <h3>Secret Santa Date: Thursday, 14 December 2017, After 337 Final</h3>
+        </center>
     </body>
 </html>
