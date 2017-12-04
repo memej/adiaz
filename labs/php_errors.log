@@ -677,3 +677,11 @@ Stack trace:
 [29-Nov-2017 21:44:42 UTC] PHP Stack trace:
 [29-Nov-2017 21:44:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:0
 [29-Nov-2017 21:44:42 UTC] PHP   2. getPetList() /home/ubuntu/workspace/adiaz/labs/lab9/adoptions.php:56
+[01-Dec-2017 20:55:18 UTC] PHP Warning:  move_uploaded_file(gallery/cat.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/adiaz/labs/lab10/index.php on line 5
+[01-Dec-2017 20:55:18 UTC] PHP Stack trace:
+[01-Dec-2017 20:55:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab10/index.php:0
+[01-Dec-2017 20:55:18 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/adiaz/labs/lab10/index.php:5
+[01-Dec-2017 20:55:18 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpceuE4r' to 'gallery/cat.jpg' in /home/ubuntu/workspace/adiaz/labs/lab10/index.php on line 5
+[01-Dec-2017 20:55:18 UTC] PHP Stack trace:
+[01-Dec-2017 20:55:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/adiaz/labs/lab10/index.php:0
+[01-Dec-2017 20:55:18 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/adiaz/labs/lab10/index.php:5
