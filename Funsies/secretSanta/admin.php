@@ -2,12 +2,10 @@
 session_start();
 include '../../dbConnection.php';
 $conn = getDatabaseConnection();
-
 if (!isset($_SESSION['username'])) { // checks whether admin has logged in
     header("Location: index.php");
     exit();
 }
-
 function shufflePeople() {
     global $conn;
     
@@ -46,7 +44,6 @@ function shufflePeople() {
         }
     }
 }
-
 function getUsers() {
     global $conn;
     
@@ -58,8 +55,6 @@ function getUsers() {
     
     return $users;
 }
-
-
 shufflePeople();
 ?>
 
